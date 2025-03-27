@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Metaspeed/static/css/main.bf81576c.css",
+    "main.js": "/Metaspeed/static/js/main.b5c3edac.js",
+    "static/js/488.fd812047.chunk.js": "/Metaspeed/static/js/488.fd812047.chunk.js",
+    "index.html": "/Metaspeed/index.html",
+    "main.bf81576c.css.map": "/Metaspeed/static/css/main.bf81576c.css.map",
+    "main.b5c3edac.js.map": "/Metaspeed/static/js/main.b5c3edac.js.map",
+    "488.fd812047.chunk.js.map": "/Metaspeed/static/js/488.fd812047.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf81576c.css",
+    "static/js/main.b5c3edac.js"
+  ]
+}
