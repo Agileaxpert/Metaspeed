@@ -1,0 +1,458 @@
+/* Partner With Us Starts */
+.Partnerwithus10 {
+    /* Bootstrap variables */
+    --bs-body-color: #262830;
+    --bs-body-bg: #fff;
+
+    /* Easy Frontend variables */
+    --ezy-theme-color: rgb(13, 110, 253);
+    --ezy-theme-color-rgb: 13, 110, 253;
+    --ezy-card-bg: #fff;
+    --ezy-card-shadow: 0 4px 34px 0 rgba(93, 104, 164, 0.2);
+    --ezy-form-shadow: 0px 5px 20px rgba(169, 170, 194, 0.35);
+
+    background-color: var(--bs-body-bg);
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+
+  @media (min-width: 768px) {
+    .Partnerwithus10 {
+      padding: 160px 0;
+    }
+  }
+
+  /* Gray Block Style */
+  .gray .Partnerwithus10,
+  .Partnerwithus10.gray {
+    /* Bootstrap variables */
+    --bs-body-bg: rgb(246, 246, 246);
+  }
+
+  /* Dark Gray Block Style */
+  .dark-gray .Partnerwithus10,
+  .Partnerwithus10.dark-gray {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(30, 39, 53);
+
+    /* Easy Frontend variables */
+    --ezy-card-bg: #202d3e;
+    --ezy-card-shadow: none;
+    --ezy-form-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Dark Block Style */
+  .dark .Partnerwithus10,
+  .Partnerwithus10.dark {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(11, 23, 39);
+
+    /* Easy Frontend variables */
+    --ezy-card-bg: #162231;
+    --ezy-card-shadow: none;
+    --ezy-form-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .Partnerwithus10-shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 78%;
+  }
+
+  .Partnerwithusheading10-heading {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    color: var(--bs-body-color);
+  }
+
+  @media (min-width: 768px) {
+    .Partnerwithusheading10-heading {
+      font-size: 50px;
+      line-height: 70px;
+    }
+  }
+
+  .Partnerwithusheading10-sub-heading {
+    color: var(--bs-body-color);
+    font-size: 20px;
+    line-height: 1.3;
+    opacity: 0.8;
+  }
+
+
+
+  .header24-btn {
+    color: #fff;
+    padding: 12px 30px;
+    background-color: var(--ezy-theme-color);
+    border-color: var(--ezy-theme-color);
+  }
+
+  .header24-btn:hover {
+    color: #fff;
+    background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+    border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+  }
+
+  /* Partner With Us Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Why With Us Starts */
+  .whywithus {
+    /* Bootstrap variables */
+    --bs-body-color: #28303b;
+    --bs-body-bg: #fff;
+
+    /* easy frontend variables */
+    --ezy-theme-color: rgb(13, 110, 253);
+    --ezy-theme-color-rgb: 13, 110, 253;
+    --ezy-card-bg: #fff;
+    --ezy-card-shadow: 0 25px 41px rgba(89, 88, 109, 0.15);
+
+    background-color: var(--bs-body-bg);
+    padding: 0;
+  }
+
+  .whywithus>div {
+    background-image: linear-gradient(131deg,
+        rgba(255, 138, 1, 0.35),
+        rgba(57, 120, 246, 0.1),
+        rgba(var(--ezy-theme-color-rgb), 0.5));
+    padding: 60px 0;
+    
+  }
+
+  @media (min-width: 768px) {
+    .whywithus>div {
+      padding: 233px 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+  .whywithuscard {
+    --bs-body-color: rgb(50, 62, 80);
+    --bs-body-bg: rgb(255, 255, 255);
+
+    /* Easy Frontend variables */
+    --ezy-theme-color: rgb(13, 110, 253);
+    --ezy-theme-color-rgb: 13, 110, 253;
+    --ezy-card-bg: transparent;
+
+    background-color: var(--bs-body-bg);
+    padding: 60px 0;
+  }
+
+  @media (min-width: 768px) {
+    .whywithuscard {
+      padding: 100px 0;
+    }
+  }
+
+  /* Gray Block Style */
+  .gray .whywithuscard,
+  .whywithuscard.gray {
+    /* Bootstrap variables */
+    --bs-body-bg: rgb(246, 246, 246);
+  }
+
+  /* Dark Gray Block Style */
+  .dark-gray .whywithuscard,
+  .whywithuscard.dark-gray {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(30, 39, 53);
+  }
+
+  /* Dark Block Style */
+  .dark .whywithuscard,
+  .whywithuscard.dark {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(11, 23, 39);
+  }
+
+  .whywithuscard-heading {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--bs-body-color);
+  }
+
+  @media (min-width: 768px) {
+    .whywithuscard-heading {
+      font-size: 45px;
+    }
+  }
+
+  .whywithuscard-sub-heading {
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--bs-body-color);
+    opacity: 0.8;
+  }
+
+  /* img */
+  .whywithuscard-bg-holder {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 100%;
+    min-height: 400px;
+  }
+
+  /* card */
+  .whywithuscard .card {
+    background-color: var(--ezy-card-bg);
+    color: var(--bs-body-color);
+    border: 0 !important;
+  }
+
+  .whywithuscard-card-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .whywithuscard-card-text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+
+  .whywithuscard-card-icon {
+    /*background-color: var(--ezy-theme-color);*/
+    color: #f37e4a;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 55px;
+  }
+
+  /* Why With Us Ends */
+
+
+
+
+
+
+
+
+
+
+  /* Get Started Card Container */
+  .get-started-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+    /* Raise the card to overlap sections */
+    z-index: 10;
+    position: relative;
+  }
+
+  /* Get Started Card */
+  .get-started-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 100%;
+    position: absolute;
+    top: -46px;
+  }
+
+  /* Card Content Layout */
+  .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  /* Left Section */
+  .left-section {
+    flex: 1;
+  }
+
+  .left-section h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .left-section p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .left-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .left-section ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .left-section i {
+    color: #28a745;
+    font-size: 1.2rem;
+  }
+
+  /* Right Section */
+  .right-section iframe {
+    border-radius: 8px;
+    width: 300px;
+    height: 170px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .card-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .right-section iframe {
+      width: 100%;
+      height: 200px;
+      margin-top: 20px;
+    }
+  }
+
+
+  .why-partner-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .why-partner-heading h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .why-partner-heading::before,
+  .why-partner-heading::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background: #616161;
+    margin: 0 10px;
+  }
+
+  .card {
+  background: transparent !important; /* Makes the card background transparent */
+  border: none; /* Removes the default card border */
+  box-shadow: none; /* Removes any shadow effect */
+}
+
+.card-body {
+  background: transparent !important; /* Ensures the inner content also has no background */
+  padding: 20px; /* Adds some spacing for better readability */
+}
+
+
+
+
+
+
+.section.Partnerwithus10 {
+  position: relative;
+  background-color: white; /* Ensures top is plain white */
+  overflow: hidden;
+}
+
+/* Creating a tightly packed pattern of images */
+.Partnerwithus10::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 19vh; /* Adjust height based on placement */
+  
+  /* Repeating small images closely */
+  background-image: url('https://metaspeed.cloud/assets/imgs/gallery/5921350_3065364.svg');
+  background-size: 150px; /* Reduce size to pack them closely */
+  background-repeat: repeat; /* Removes space by repeating */
+  
+  /* Gradient fade effect */
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+  /* Partner With Us Ends */
+
+  
+  .has_fade_anim {
+    opacity: 1!important;  /* Start with the element hidden */
+    transform: translateY(40px)!important;  /* Start with the element below its final position */
+    transition: opacity 0.6s ease-in-out, transform 1s ease-in-out!important;  /* Apply both opacity and transform transitions */
+    }
+    
+    .has_fade_anim.visible {
+    opacity: 1!important;  /* Fade in the element */
+    transform: translateY(0)!important;  /* Move the element to its final position */
+    }
