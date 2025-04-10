@@ -202,44 +202,48 @@ const Pricing = () => {
     }
   };
 
-  const currencyLocaleMap = {
-    AED: "ar-AE", // United Arab Emirates Dirham
-    AUD: "en-AU", // Australian Dollar
-    CAD: "en-CA", // Canadian Dollar
-    CHF: "de-CH", // Swiss Franc
-    CNY: "zh-CN", // Chinese Yuan
-    EUR: "de-DE", // Euro (Germany)
-    GBP: "en-GB", // British Pound Sterling
-    HKD: "zh-HK", // Hong Kong Dollar
-    IDR: "id-ID", // Indonesian Rupiah
-    INR: "en-IN", // Indian Rupee
-    JPY: "ja-JP", // Japanese Yen
-    KRW: "ko-KR", // South Korean Won
-    MYR: "ms-MY", // Malaysian Ringgit
-    NZD: "en-NZ", // New Zealand Dollar
-    PHP: "en-PH", // Philippine Peso
-    RUB: "ru-RU", // Russian Ruble
-    SAR: "ar-SA", // Saudi Riyal
-    SGD: "en-SG", // Singapore Dollar
-    THB: "th-TH", // Thai Baht
-    TRY: "tr-TR", // Turkish Lira
-    USD: "en-US", // United States Dollar
-    ZAR: "en-ZA", // South African Rand
+  // 
+  
+  const currencySymbolMap = {
+    AED: "AED",
+    AUD: "$",
+    CAD: "C$",
+    CHF: "CHF",
+    CNY: "¥",
+    EUR: "€",
+    GBP: "£",
+    HKD: "HK$",
+    IDR: "Rp",
+    INR: "₹",
+    JPY: "¥",
+    KRW: "₩",
+    MYR: "RM",
+    NZD: "NZ$",
+    PHP: "₱",
+    RUB: "₽",
+    SAR: "SAR",
+    SGD: "S$",
+    THB: "฿",
+    TRY: "₺",
+    USD: "$",
+    ZAR: "R",
   };
-
+  
   const formatCurrency = (amount, currencyCode, showSymbol = true) => {
     if (amount === null || amount === undefined) return "";
-
-    // Get the locale based on the currencyCode, default to "en-US" if not found
-    const locale = currencyLocaleMap[currencyCode] || "en-IN";
-
-    return Number(amount).toLocaleString(locale, {
-      style: showSymbol ? "currency" : "decimal",
-      currency: currencyCode,
+  
+    const formattedNumber = Number(amount).toLocaleString("en-US", {
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
     });
+  
+    if (!showSymbol) return formattedNumber;
+  
+    const symbol = currencySymbolMap[currencyCode] || currencyCode;
+  
+    return `${symbol} ${formattedNumber}`;
   };
+  
 
   // useEffect(() => {
   //   // Create script element

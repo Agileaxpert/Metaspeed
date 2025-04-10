@@ -626,7 +626,7 @@
     background-color:rgba(0,0,0,0)
   }
   .variation-2 .pricing-box .price {
-	font-size: 38px;
+	font-size: 33px;
 	line-height: 1;
 	margin-top: 30px;
 	margin-bottom: 8px;
@@ -634,7 +634,9 @@
   @media only screen and (max-width: 1399px) {
     .variation-2 .pricing-box .price {
       font-size:38px;
-      margin-top:29px
+      margin-top:29px;
+      width: max-content;
+      white-space: nowrap;
     }
   }
   @media only screen and (max-width: 767px) {

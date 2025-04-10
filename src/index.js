@@ -12,8 +12,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ConfigProvider>
 
-  
-     <BrowserRouter basename="/MetaSpeed"> 
+{/*github homepage in pk.json "homepage": "https://agileaxpert.github.io/Metaspeed", */}
+
+  <BrowserRouter basename="/MetaSpeed"> 
   {/* <BrowserRouter>   */}
   {/* <React.StrictMode> */}
     <App />
